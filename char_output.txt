@@ -1,0 +1,99 @@
+N=4   perfect-knowledge analytic programming: 1-F Reck 3.3e-16 Clem 1.1e-16  OK
+N=4   perfect-knowledge analytic programming: 1-F Reck 3.3e-16 Clem 3.3e-16  OK
+N=4   perfect-knowledge analytic programming: 1-F Reck 1.1e-16 Clem 0.0e+00  OK
+N=8   perfect-knowledge analytic programming: 1-F Reck 0.0e+00 Clem 3.3e-16  OK
+N=8   perfect-knowledge analytic programming: 1-F Reck 0.0e+00 Clem 1.1e-16  OK
+N=8   perfect-knowledge analytic programming: 1-F Reck 3.3e-16 Clem 0.0e+00  OK
+N=16  perfect-knowledge analytic programming: 1-F Reck 3.3e-16 Clem 1.1e-16  OK
+N=16  perfect-knowledge analytic programming: 1-F Reck 0.0e+00 Clem 1.1e-16  OK
+N=16  perfect-knowledge analytic programming: 1-F Reck -2.2e-16 Clem 0.0e+00  OK
+coupler errors: 1-F uncompensated 5.1e-03 -> full model-based 4.6e-09 OK
+SELFTEST PASSED
+
+=== phase (trials=100) ===
+uncompensated=-        | 1-F  Reck 1.39e-01  Clem 1.45e-01
+s_ph=0        | 1-F  Reck 0.00e+00  Clem 0.00e+00
+s_ph=0.002    | 1-F  Reck 2.77e-05  Clem 2.95e-05
+s_ph=0.005    | 1-F  Reck 1.73e-04  Clem 1.84e-04
+s_ph=0.01     | 1-F  Reck 6.93e-04  Clem 7.37e-04
+s_ph=0.02     | 1-F  Reck 2.77e-03  Clem 2.94e-03
+s_ph=0.05     | 1-F  Reck 1.72e-02  Clem 1.82e-02
+s_ph=0.1      | 1-F  Reck 6.67e-02  Clem 7.08e-02
+
+=== xt (trials=100) ===
+uncompensated=-        | 1-F  Reck 2.49e-01  Clem 1.80e-01
+scale eps=0        | 1-F  Reck 0.00e+00  Clem 0.00e+00
+scale eps=0.02     | 1-F  Reck 7.27e-04  Clem 4.87e-04
+scale eps=0.05     | 1-F  Reck 4.54e-03  Clem 3.04e-03
+scale eps=0.1      | 1-F  Reck 1.81e-02  Clem 1.21e-02
+scale eps=0.2      | 1-F  Reck 7.10e-02  Clem 4.77e-02
+scale eps=0.5      | 1-F  Reck 3.79e-01  Clem 2.66e-01
+scale eps=1.0      | 1-F  Reck 8.72e-01  Clem 7.30e-01
+entry eps=0        | 1-F  Reck 0.00e+00  Clem 0.00e+00
+entry eps=0.02     | 1-F  Reck 1.96e-04  Clem 2.23e-04
+entry eps=0.05     | 1-F  Reck 1.23e-03  Clem 1.40e-03
+entry eps=0.1      | 1-F  Reck 4.89e-03  Clem 5.57e-03
+entry eps=0.2      | 1-F  Reck 1.94e-02  Clem 2.20e-02
+entry eps=0.5      | 1-F  Reck 1.14e-01  Clem 1.28e-01
+entry eps=1.0      | 1-F  Reck 3.72e-01  Clem 4.05e-01
+
+=== bs (trials=100) ===
+N=4 uncomp=-        | 1-F  Reck 5.03e-03  Clem 4.54e-03
+N=4 s_bs=0        | 1-F  Reck 8.27e-09  Clem 2.64e-06
+N=4 s_bs=0.005    | 1-F  Reck 1.68e-04  Clem 1.59e-04
+N=4 s_bs=0.01     | 1-F  Reck 6.73e-04  Clem 6.29e-04
+N=4 s_bs=0.02     | 1-F  Reck 2.70e-03  Clem 2.51e-03
+N=4 s_bs=0.03     | 1-F  Reck 6.09e-03  Clem 5.62e-03
+N=8 uncomp=-        | 1-F  Reck 1.31e-02  Clem 1.34e-02
+N=8 s_bs=0        | 1-F  Reck 1.06e-04  Clem 8.29e-05
+N=8 s_bs=0.005    | 1-F  Reck 4.21e-04  Clem 4.40e-04
+N=8 s_bs=0.01     | 1-F  Reck 1.37e-03  Clem 1.51e-03
+N=8 s_bs=0.02     | 1-F  Reck 5.16e-03  Clem 5.79e-03
+N=8 s_bs=0.03     | 1-F  Reck 1.15e-02  Clem 1.29e-02
+
+=== spec (trials=100) ===
+N=4   phase Reck      sigma_req(F>=0.99)=0.05891  (F>=0.999)=0.01856  loglog slope=1.99
+N=4   phase Clements  sigma_req(F>=0.99)=0.05801  (F>=0.999)=0.01827  loglog slope=1.99
+N=4   xt    Reck      sigma_req(F>=0.99)=0.3119  (F>=0.999)=0.09835  loglog slope=1.99
+N=4   xt    Clements  sigma_req(F>=0.99)=0.3096  (F>=0.999)=0.09767  loglog slope=1.99
+N=8   phase Reck      sigma_req(F>=0.99)=0.03811  (F>=0.999)=0.01202  loglog slope=1.98
+N=8   phase Clements  sigma_req(F>=0.99)=0.03696  (F>=0.999)=0.01165  loglog slope=1.98
+N=8   xt    Reck      sigma_req(F>=0.99)=0.1432  (F>=0.999)=0.04516  loglog slope=1.96
+N=8   xt    Clements  sigma_req(F>=0.99)=0.1343  (F>=0.999)=0.04232  loglog slope=1.95
+N=16  phase Reck      sigma_req(F>=0.99)=0.02622  (F>=0.999)=0.008268  loglog slope=1.96
+N=16  phase Clements  sigma_req(F>=0.99)=0.0258  (F>=0.999)=0.008138  loglog slope=1.96
+N=16  xt    Reck      sigma_req(F>=0.99)=0.08323  (F>=0.999)=0.02624  loglog slope=1.89
+N=16  xt    Clements  sigma_req(F>=0.99)=0.0834  (F>=0.999)=0.0263  loglog slope=1.90
+N=32  phase Reck      sigma_req(F>=0.99)=0.01817  (F>=0.999)=0.005726  loglog slope=1.93
+N=32  phase Clements  sigma_req(F>=0.99)=0.01798  (F>=0.999)=0.005669  loglog slope=1.93
+N=32  xt    Reck      sigma_req(F>=0.99)=0.05321  (F>=0.999)=0.01678  loglog slope=1.78
+N=32  xt    Clements  sigma_req(F>=0.99)=0.0538  (F>=0.999)=0.01697  loglog slope=1.79
+
+=== budget (trials=100) ===
+
+--- N=4 ---
+A uncompensated                              F Reck 0.9094  Clem 0.9087
+B perfect knowledge (phase+xtalk)            F Reck 0.9976  Clem 0.9976
+C + phase-offset est. error                  F Reck 0.9974  Clem 0.9973
+D + crosstalk model error                    F Reck 0.9966  Clem 0.9966
+E + both C and D                             F Reck 0.9963  Clem 0.9964
+F full, perfect knowledge                    F Reck 0.9998  Clem 0.9999
+G full, with C, D and coupler est. error     F Reck 0.9984  Clem 0.9987
+
+--- N=8 ---
+A uncompensated                              F Reck 0.6439  Clem 0.6920
+B perfect knowledge (phase+xtalk)            F Reck 0.9932  Clem 0.9940
+C + phase-offset est. error                  F Reck 0.9924  Clem 0.9932
+D + crosstalk model error                    F Reck 0.9887  Clem 0.9883
+E + both C and D                             F Reck 0.9883  Clem 0.9875
+F full, perfect knowledge                    F Reck 0.9987  Clem 0.9997
+G full, with C, D and coupler est. error     F Reck 0.9933  Clem 0.9940
+
+--- N=16 ---
+A uncompensated                              F Reck 0.1270  Clem 0.3146
+B perfect knowledge (phase+xtalk)            F Reck 0.9815  Clem 0.9876
+C + phase-offset est. error                  F Reck 0.9801  Clem 0.9862
+D + crosstalk model error                    F Reck 0.9676  Clem 0.9734
+E + both C and D                             F Reck 0.9662  Clem 0.9721
+
+Done -> results_char

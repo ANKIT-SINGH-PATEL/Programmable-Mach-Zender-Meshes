@@ -1,0 +1,70 @@
+N=2   Reck      MZIs=1    depth=1   recon_err=2.3e-16 device F(no error)=1.000000000000  OK
+N=2   Clements  MZIs=1    depth=1   recon_err=2.3e-16 device F(no error)=1.000000000000  OK
+N=3   Reck      MZIs=3    depth=3   recon_err=2.8e-16 device F(no error)=1.000000000000  OK
+N=3   Clements  MZIs=3    depth=3   recon_err=2.2e-16 device F(no error)=1.000000000000  OK
+N=4   Reck      MZIs=6    depth=5   recon_err=6.5e-16 device F(no error)=1.000000000000  OK
+N=4   Clements  MZIs=6    depth=4   recon_err=5.6e-16 device F(no error)=1.000000000000  OK
+N=5   Reck      MZIs=10   depth=7   recon_err=3.2e-16 device F(no error)=1.000000000000  OK
+N=5   Clements  MZIs=10   depth=5   recon_err=4.3e-16 device F(no error)=1.000000000000  OK
+N=8   Reck      MZIs=28   depth=13  recon_err=5.2e-16 device F(no error)=1.000000000000  OK
+N=8   Clements  MZIs=28   depth=8   recon_err=4.7e-16 device F(no error)=1.000000000000  OK
+N=16  Reck      MZIs=120  depth=29  recon_err=5.1e-16 device F(no error)=1.000000000000  OK
+N=16  Clements  MZIs=120  depth=16  recon_err=6.6e-16 device F(no error)=1.000000000000  OK
+N=32  Reck      MZIs=496  depth=61  recon_err=6.0e-16 device F(no error)=1.000000000000  OK
+N=32  Clements  MZIs=496  depth=32  recon_err=1.1e-15 device F(no error)=1.000000000000  OK
+N=4 identity    Reck      recon_err=6.1e-17
+N=4 identity    Clements  recon_err=6.1e-17
+N=4 permutation Reck      recon_err=6.1e-17
+N=4 permutation Clements  recon_err=1.6e-16
+N=6 identity    Reck      recon_err=6.1e-17
+N=6 identity    Clements  recon_err=1.6e-16
+N=6 permutation Reck      recon_err=6.1e-17
+N=6 permutation Clements  recon_err=2.8e-16
+SELFTEST PASSED
+
+=== experiment: phase (trials=100, seed=2026) ===
+sig_phase=0       N=8   | F  Reck 1.0000  Clem 1.0000 | IL(dB) Reck -0.00 Clem -0.00 | AGR Reck 1.000 Clem 1.000  [0.2s]
+sig_phase=0.02    N=8   | F  Reck 0.9973  Clem 0.9972 | IL(dB) Reck -0.00 Clem -0.00 | AGR Reck 0.958 Clem 0.957  [0.3s]
+sig_phase=0.04    N=8   | F  Reck 0.9892  Clem 0.9889 | IL(dB) Reck -0.00 Clem -0.00 | AGR Reck 0.917 Clem 0.914  [0.3s]
+sig_phase=0.06    N=8   | F  Reck 0.9760  Clem 0.9752 | IL(dB) Reck -0.00 Clem -0.00 | AGR Reck 0.876 Clem 0.872  [0.3s]
+sig_phase=0.08    N=8   | F  Reck 0.9578  Clem 0.9564 | IL(dB) Reck -0.00 Clem -0.00 | AGR Reck 0.836 Clem 0.831  [0.3s]
+sig_phase=0.1     N=8   | F  Reck 0.9351  Clem 0.9327 | IL(dB) Reck -0.00 Clem -0.00 | AGR Reck 0.799 Clem 0.791  [0.3s]
+sig_phase=0.15    N=8   | F  Reck 0.8611  Clem 0.8552 | IL(dB) Reck -0.00 Clem -0.00 | AGR Reck 0.710 Clem 0.697  [0.3s]
+sig_phase=0.2     N=8   | F  Reck 0.7691  Clem 0.7579 | IL(dB) Reck -0.00 Clem -0.00 | AGR Reck 0.627 Clem 0.610  [0.3s]
+
+=== experiment: bs (trials=100, seed=2026) ===
+sig_bs=0       N=8   | F  Reck 1.0000  Clem 1.0000 | IL(dB) Reck -0.00 Clem -0.00 | AGR Reck 1.000 Clem 1.000  [0.3s]
+sig_bs=0.01    N=8   | F  Reck 0.9986  Clem 0.9986 | IL(dB) Reck 0.00 Clem 0.00 | AGR Reck 0.966 Clem 0.965  [0.3s]
+sig_bs=0.02    N=8   | F  Reck 0.9944  Clem 0.9942 | IL(dB) Reck 0.00 Clem 0.00 | AGR Reck 0.933 Clem 0.930  [0.3s]
+sig_bs=0.03    N=8   | F  Reck 0.9874  Clem 0.9871 | IL(dB) Reck 0.00 Clem -0.00 | AGR Reck 0.899 Clem 0.896  [0.3s]
+sig_bs=0.05    N=8   | F  Reck 0.9653  Clem 0.9643 | IL(dB) Reck 0.00 Clem 0.00 | AGR Reck 0.833 Clem 0.830  [0.3s]
+sig_bs=0.08    N=8   | F  Reck 0.9125  Clem 0.9096 | IL(dB) Reck 0.00 Clem 0.00 | AGR Reck 0.739 Clem 0.734  [0.3s]
+sig_bs=0.1     N=8   | F  Reck 0.8650  Clem 0.8604 | IL(dB) Reck 0.00 Clem 0.00 | AGR Reck 0.680 Clem 0.672  [0.3s]
+
+=== experiment: loss (trials=100, seed=2026) ===
+N=4       N=4   | F  Reck 0.9995  Clem 0.9998 | IL(dB) Reck 0.60 Clem 0.59 | AGR Reck 0.979 Clem 0.985  [0.1s]
+N=8       N=8   | F  Reck 0.9968  Clem 0.9994 | IL(dB) Reck 1.38 Clem 1.42 | AGR Reck 0.913 Clem 0.966  [0.1s]
+N=16      N=16  | F  Reck 0.9833  Clem 0.9988 | IL(dB) Reck 2.85 Clem 3.00 | AGR Reck 0.740 Clem 0.948  [0.5s]
+N=32      N=32  | F  Reck 0.9247  Clem 0.9980 | IL(dB) Reck 5.54 Clem 6.19 | AGR Reck 0.448 Clem 0.923  [2.1s]
+
+=== experiment: xt (trials=100, seed=2026) ===
+eta_xt=0       N=8   | F  Reck 1.0000  Clem 1.0000 | IL(dB) Reck -0.00 Clem -0.00 | AGR Reck 1.000 Clem 1.000  [0.3s]
+eta_xt=0.005   N=8   | F  Reck 0.9826  Clem 0.9876 | IL(dB) Reck -0.00 Clem -0.00 | AGR Reck 0.876 Clem 0.907  [0.3s]
+eta_xt=0.01    N=8   | F  Reck 0.9320  Clem 0.9515 | IL(dB) Reck -0.00 Clem -0.00 | AGR Reck 0.758 Clem 0.817  [0.3s]
+eta_xt=0.02    N=8   | F  Reck 0.7505  Clem 0.8197 | IL(dB) Reck -0.00 Clem -0.00 | AGR Reck 0.556 Clem 0.657  [0.3s]
+eta_xt=0.03    N=8   | F  Reck 0.5140  Clem 0.6379 | IL(dB) Reck -0.00 Clem -0.00 | AGR Reck 0.390 Clem 0.519  [0.3s]
+eta_xt=0.05    N=8   | F  Reck 0.1281  Clem 0.2784 | IL(dB) Reck -0.00 Clem -0.00 | AGR Reck 0.185 Clem 0.315  [0.3s]
+
+=== experiment: scale (trials=100, seed=2026) ===
+N=4       N=4   | F  Reck 0.9841  Clem 0.9839 | IL(dB) Reck 0.38 Clem 0.37 | AGR Reck 0.918 Clem 0.915  [0.1s]
+N=8       N=8   | F  Reck 0.9049  Clem 0.9285 | IL(dB) Reck 0.87 Clem 0.89 | AGR Reck 0.723 Clem 0.777  [0.1s]
+N=16      N=16  | F  Reck 0.6492  Clem 0.7738 | IL(dB) Reck 1.81 Clem 1.87 | AGR Reck 0.403 Clem 0.562  [0.5s]
+N=32      N=32  | F  Reck 0.1317  Clem 0.4209 | IL(dB) Reck 3.61 Clem 3.87 | AGR Reck 0.080 Clem 0.284  [2.2s]
+
+=== experiment: cal (trials=100, seed=2026) ===
+N_complex=4       N=4   | F  Reck 0.9825  Clem 0.9839 | IL(dB) Reck 0.38 Clem 0.37 | AGR Reck 0.912 Clem 0.915 | Fcal Reck 0.9998 Clem 0.9999  [5.5s]
+N_complex=8       N=8   | F  Reck 0.9032  Clem 0.9280 | IL(dB) Reck 0.87 Clem 0.88 | AGR Reck 0.723 Clem 0.778 | Fcal Reck 0.9985 Clem 0.9994  [100.3s]
+N_intensity=4       N=4   | F  Reck 0.9825  Clem 0.9839 | IL(dB) Reck 0.38 Clem 0.37 | AGR Reck 0.912 Clem 0.915 | Fcal Reck 0.9918 Clem 0.9947  [5.2s]
+N_intensity=8       N=8   | F  Reck 0.9032  Clem 0.9280 | IL(dB) Reck 0.87 Clem 0.88 | AGR Reck 0.723 Clem 0.778 | Fcal Reck 0.9832 Clem 0.9923  [74.0s]
+
+Done. CSV + PNG in results
